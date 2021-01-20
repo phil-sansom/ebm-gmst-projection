@@ -2,6 +2,9 @@
 ## RCP4.5 analysis from main text ##
 ####################################
 
+dir.create("fig")
+dir.create("output")
+
 ## Sampler
 source("./src/sampling-rcp45.R")
 
